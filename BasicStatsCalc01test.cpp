@@ -2,7 +2,7 @@
 This code gives us the mean, and the variances, standard deviations with the option for sample-form or population-form.
 coder:: Laniakea (Rogue Philosophy)
 
-Basic Stats calculator  v.0.0.0
+Basic Stats calculator  v.0.0.0 More updates to come soon, and extensions for t and f tests
 ********************************/
 #include <iostream> //For cin cout functionality
 #include <iomanip> //For rounding, not in v.0.0.0 but will be in v.0.0.1
