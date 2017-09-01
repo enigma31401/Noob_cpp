@@ -1,5 +1,5 @@
 /********************************
-This code gives us the mean only.
+This code gives us the mean, and the variances, standard deviations with the option for sample-form or population-form.
 coder:: Laniakea (Rogue Philosophy)
 
 Basic Stats calculator  v.0.0.0
