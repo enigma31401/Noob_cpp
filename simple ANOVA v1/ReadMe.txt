@@ -1,6 +1,7 @@
 Coder: Laniakea(RoguePhilosophy)
 
 Description:
+ONE WAY ANOVA/ SIMPLE ANOVA 
        Is a collection of cpp code that handles the task of ANOVA calculating as sufficient by the standards in Ambrose's ~ "Handbook of Biological Investigation 7th ed.""
        Caclulates everything, the only thing you have to do is run your F calculated by the F table appropo in the book (pg 57)
 Contents:
