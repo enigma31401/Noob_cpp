@@ -1,4 +1,5 @@
 // Very elementary logic and principals, here for help in referencing highly applicable logic/mechanics in the future
+//Supplemental, helpful source https://stackoverflow.com/questions/17464294/is-it-possible-to-copy-part-of-a-vector-using-the-array-copy
 
 #include <iostream> //For cin, cout functionality which isn't really here
 #include <math.h> //Just in case, for any breakout algebra needed
