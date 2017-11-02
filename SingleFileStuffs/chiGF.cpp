@@ -33,6 +33,9 @@ int main() {
 		      OBSvalues.push_back(tmp_obsval);
      	      	      
 	}
+
+       do { //do while loop for error correcting
+	       
                std:: cout << "Are the expected values Uniform(u) or Varied(v): ";
                std:: cin >> choice;
 	             
@@ -46,8 +49,12 @@ int main() {
 			     varied_method(variedExpVal, userOBS);
 	                     chiSquare = get_chiSquareV(OBSvalues, variedExpVal);		     
 		     }
+                     
+                     else {
+                                 std:: cout << "Error! Invalid input, try again!" << std:: endl;
+                   }
 
-
+          }while(!(choice == 'u') && !(choice == 'v') || !(choice == 'U') && !(choice == 'V'));
 
       show_OBSset(OBSvalues); //Display user input information
                std:: cout << "Calculated chi square value: " << chiSquare << std:: endl;
